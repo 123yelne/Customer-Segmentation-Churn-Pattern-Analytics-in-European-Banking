@@ -42,7 +42,7 @@ pip install -r requirements.txt
 streamlit run app.py
 👤 Author
 Atharva Yelne 
-Dashboard - https://browsing-unlearned-machinist.ngrok-free.dev/
+Dashboard - https://ap96wpbnp4caheedy6nnk7.streamlit.app/
 📅 Project Date
 May 2026
 
