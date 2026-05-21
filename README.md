@@ -22,3 +22,39 @@ This project analyzes customer churn patterns in European banking using segmenta
 - **Ngrok** - Public URL deployment (for Colab)
 
 ## 📁 Project Structure
+bank-churn-analytics/
+├── app.py # Main Streamlit dashboard
+├── data_loader.py # Data loading and preprocessing
+├── analysis.py # KPI calculations and analytics
+├── requirements.txt # Python dependencies
+├── European_Bank.csv # Customer dataset
+└── README.md # Project documentation
+
+## 🚀 How to Run Locally
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/bank-churn-analytics.git
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the dashboard
+streamlit run app.py
+👤 Author
+Atharva Yelne 
+
+📅 Project Date
+May 2026
+
+---
+
+## 📝 requirements.txt File
+
+Create this file with:
+
+```txt
+streamlit==1.28.1
+pandas==2.0.3
+plotly==5.17.0
+numpy==1.24.3
+pyngrok==7.0.0
